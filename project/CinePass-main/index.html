@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quicksand" />
+  <link rel="icon" type="image/x-icon" href="icon.png">
+  <script src="script.js"></script>
+  
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Atomic+Age&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Sora:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Montserrat:ital,wght@1,600&family=Sora:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+ 
+ </style>
+  <title>CineBookin</title>
+</head>
+
+<body>
+  <div class="topnav" id="topnav">
+    <span class="cinebookin">
+      <span ><img src="icon.png" alt="icon" class="icon"></span>
+      <span class="cinepasstext">CineBookin</span>
+    </span>
+    
+    <span class="contactbox">
+      <a href="#moviehead" >MOVIES</a>
+      <a href="#citybox" >CITY</a>
+      <a href="#aboutbox" >ABOUT</a>
+      <a href="#feedback" >FEEDBACK</a>
+    </span>
+
+    <span class="inputbox"><input type="text" placeholder="Search Movie" class="inputbutton" id="movienameinput">
+      <button class="submit" id="inputmoviesubmit"><img src="searchicon.png" class="searchicon" alt="searchicon"></button>
+    </span>
+  </div>
+<div class="upper">
+  
+  <div class="aboutbox" id="aboutbox">
+    <p class="createdtext"> It's ShowTime🎬</p>
+   <!--<img src="aboutbox.jpg" alt="aboutboxpic"> --> 
+    <div class="aboutboxtext" id="aboutboxtext">
+    <br>Contact Links:
+    <p id="contacticon">
+      <a href="nagasreya24@gmail.com" ><img src="gmailicon.png"></a>
+       <a href="https://github.com/oletishreya24" ><img src="github.png"></a>
+       <a href="https://www.linkedin.com/in/nagavenkatasreya-oleti-5b872a317/" ><img src="linkedin.png"></a>
+       <a href="#feedback"><img src="feedbackicon.png"></a>
+    </p>
+  </div>
+</div>
+</div>
+<div class="citybox" id="citybox">
+  <span class="searchinptbtn"><input id="myinput" type="text" placeholder="Select your city or enter your city name">
+    <button class="submitt" id="submit">submit</button></span>
+  <span>
+  <p><button class="citybtn" id="Delhi" value="Delhi">Delhi</button>
+      <button class="citybtn" id="Hyderabad" value="Hyderabad">Hyderabad</button>
+      <button class="citybtn" id="bangalore" value="Bangalore">Bangalore</button>
+      <button class="citybtn" id="mumbai" value="Mumbai">Mumbai</button></p>
+  <p><button class="citybtn" id="pune" value="Pune">Pune</button>
+    <button class="citybtn" id="kolkata" value="Kolkata">Kolkata</button>
+    <button class="citybtn" id="vizag" value="Vizag">Vizag</button>
+    <button class="citybtn" id="lucknow" value="Lucknow">Lucknow</button>
+    <button class="citybtn" id="chennai" value="Chennai">Chennai</button>
+  </p>
+  <p>
+    <button class="citybtn" id="Eluru" value="Eluru">Eluru</button>
+    <button class="citybtn" id="Jaipur" value="Jaipur">Jaipur</button>
+    <button class="citybtn" id="Surat" value="Surat">Surat</button>
+    <button class="citybtn" id="Gurugram" value="Gurugram">Gurugram</button>
+  </p>
+  </p>
+<p class="citylisttext" id="citylisttext">Instead, you may type your city's name into the input box if it isn't listed above</p></span>
+</span>
+</div>
+<div class="moviehead" id="moviehead">M O V I E S
+  <hr>
+</div>
+<div class="toggles" id="toggles">
+  <button class="toggle nowshow" id="nowshowing" >Now Showing</button>
+  <button class="toggle comingsoon" id="comingsoon">Coming Soon</button>
+</div>
+
+<div class="usesearch" id="usesearch">**FIND YOUR FAVORITE MOVIE NAME or USE THE SEARCH BAR OR BROWSE THE OPTIONS BELOW **</div>
+<div id="togglemsg"></div>
+<div class="bookingbox" id="bookingbox">
+  
+    <div class="box1" id="rrr">
+      <img src="RRR.jpg" alt="RRR">
+      <span class="movietitle">RRR</span>
+      <span class="movieruntime">2D | 3h 6mins</span>
+      <a href="rrr.html"><button class="bookbox booknow">Book Now</button></a>
+    </div>
+
+    <div class="box1" id="kgf">
+      <img src="kgf.jpg" alt="KGF">
+      <span class="movietitle">KGF</span>
+      <span class="movieruntime">2D | 2h 58mins</span>
+      <a href="KGF.html"><button class="bookbox booknow">Book Now</button></a>
+    </div>
+
+    <div class="box1" id="dasara">
+      <img src="dasara.jpg" alt="DASARA">
+      <span class="movietitle">Dasara</span>
+      <span class="movieruntime">2D | 2h 34mins</span>
+      <a href="dasara.html"><button class="bookbox booknow">Book Now</button></a>
+    </div>
+
+    <div class="box1" id="avatar">
+      <img src="avatar.jpg" alt="avatar">
+      <span class="movietitle">Avatar:The Way Of Water</span>
+      <span class="movieruntime">2D | 3D | 3h 16mins</span>
+      <a href="avatar.html"><button class="bookbox booknow">Book Now</button></a>
+    </div>
+
+    <div class="box1" id="pathan">
+      <img src="pathan.jpg" alt="pathan">
+      <span class="movietitle">Pathan</span>
+      <span class="movieruntime">2D| 3D | 2h 48mins</span>
+      <a href="pathan.html"><button class="bookbox booknow">Book Now</button></a>
+    </div>
+  
+    <div class="box1" id="ponniyan selvan">
+      <img src="ps1.jpg" alt="Ponniyan Selvan">
+      <span class="movietitle">Ponniyan Selvan</span>
+      <span class="movieruntime">2D | 3D | 3h 10mins</span>
+      <a href="ponniyanselvan.html"><button class="bookbox booknow">Book Now</button></a>
+    </div>
+
+    <div class="box1" id="pushpa">
+      <img src="pushpa.jpg" alt="Pushpa">
+      <span class="movietitle">Pushpa</span>
+      <span class="movieruntime">2D | 2h 40mins</span>
+      <a href="pushpa.html"><button class="bookbox booknow">Book Now</button></a>
+    </div>
+    
+    <div class="box1" id="ayapanum koshiyum">
+      <img src="ayapanum koshiyum.jpg" alt="ayapanum koshiyum">
+      <span class="movietitle">Ayapanum Koshiyum</span>
+      <span class="movieruntime">2D | 3h 11mins</span>
+      <a href="ayapanum.html"><button class="bookbox booknow">Book Now</button></a>
+    </div>
+
+  </div>
+  <div class="usesearch">**FIND YOUR FAVORITE MOVIE NAME or USE THE SEARCH BAR OR BROWSE THE OPTIONS ABOVE **</div>
+
+  <p class="createdtext" style="padding:24px 36px 24px 36px; color:white; text-align: center;"></p>
+  <div class="footer">
+  <p>
+    <a href="nagasreya24@gmail.com" ><img src="gmailicon.png"></a>
+  <a href="https://github.com/oletishreya24" ><img src="github.png"></a>
+    <a href="https://www.linkedin.com/in/nagavenkatasreya-oleti-5b872a317/" ><img src="linkedin.png"></a>
+  <!-- <a href="#feedback"><img src="linkedin.png"></a></p> -->
+  <hr style="width:100%;border-color:#831201;border-width:1px ;">
+  <div class="feedbacksection" id="feedback">
+    <span>Feedback</span><br>
+    <input type="text" placeholder="Enter Your Feedback Here"><br>
+    <button class="feedbacksubmit">submit</button>
+  </div><hr style="width:100%;border-color:#831201;border-width:1px ;">
+  <div class="footerlinks">
+    <div class="browseall">
+      <p>BROWSE ALL</p>
+      <a href="#aboutbox">About this page</a>
+      <a href="#citybox">Select City</a>
+      <a href="#citybox">Now Showing</a>
+      <a href="#bookingbox">Coming Soon</a>
+    </div><hr>
+    <div class="browseall">
+      <p>Cities</p>
+      <a href="#citybox"  class="browsebtns" id="Hyderabad" value="Hyderabad">Hyderabad</a>
+      <a href="#citybox" class="browsebtns" id="Vishakapatnam" value="Vishakapatnam">Vishakapatnam</a>
+      <a href="#citybox" class="browsebtns" id="Delhi" value="Delhi">Delhi</a>
+      <a href="#citybox" class="browsebtns" id="Bangalore" value="Bangalore">Bangalore</a>
+    </div><hr>
+    <div class="browseall">
+      <p>Now showing</p>
+      <a href="#rrr">RRR</a>
+      <a href="#avatar">Avatar</a>
+      <a href="#pushpa">Pushpa</a>
+      <a href="#dasara">Dasara</a>
+    </div><hr>
+  </div>
+  </div>
+  
+
+</div>
+</body>
+</html>
